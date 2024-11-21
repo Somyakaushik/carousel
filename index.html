@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nature Carousel</h1>
+        <p>Swipe through stunning nature shots!</p>
+    </header>
+
+
+    <main>
+        <img src="https://picsum.photos/id/10/1000/500" alt="nature1" class="slide">
+        <img src="https://picsum.photos/id/11/1000/500" alt="nature2" class="slide">
+        <img src="https://picsum.photos/id/12/1000/500" alt="nature3" class="slide">
+        <img src="https://picsum.photos/id/13/1000/500" alt="nature4" class="slide">
+        <img src="https://picsum.photos/id/14/1000/500" alt="nature4" class="slide">
+        <img src="https://picsum.photos/id/15/1000/500" alt="nature4" class="slide">
+    </main>
+
+    <div class="indicators">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    
+    <div class="nav">
+        <button onclick="goPrev()">
+            &#8592;
+            <!-- prev -->
+        </button>
+        <button onclick="goNext()">
+            &#8594;
+            <!-- next -->
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
